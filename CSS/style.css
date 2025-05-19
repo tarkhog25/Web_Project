@@ -1,0 +1,48 @@
+/* Reinitial all margin and padding by default  */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    background-color: rgba(117, 112, 117, 0.533);
+    padding: 3rem 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 2rem;
+    flex-grow: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease; /* smooth hover effect */
+}
+
+nav a:hover{
+    background-color: #444;
+    color: #26e0e6;
+}
+
+footer img{
+    width: 75px;
+    height: 75px;
+    margin-right: 2%;
+    order: -1;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

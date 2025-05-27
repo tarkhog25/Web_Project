@@ -12,9 +12,19 @@ body {
 }
 
 header, footer {
-    background-color: rgba(198, 192, 198, 0.533);
+    background-color: #30406d;
     padding: 2rem 0;
+    
+    color: #fff;
 }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 
 .navpage ul {
     display: flex;
@@ -25,7 +35,7 @@ header, footer {
 
 .navpage a {
     text-decoration: none;
-    color: #000000;
+    color: rgba(201, 201, 202, 0.8);
     font-family: 'Arial', sans-serif;
     font-weight: 600;
     padding: 0.5rem 1rem;
@@ -138,19 +148,19 @@ footer {
 }
 
 .footer-logo {
-    width: 75px;
-    height: 75px;
-    margin-bottom: 1.5rem;
+    width: 100px;
+    height: 100px;
+    margin-bottom: rem;
 }
 
 .copyright {
     font-size: 0.9rem;
-    color: #666;
+    color: rgba(201, 201, 202, 0.8);
     margin-bottom: 1rem;
 }
 
 .about-link a {
-    color: #333;
+    color: rgba(201, 201, 202, 0.8);
     text-decoration: none;
 }
 

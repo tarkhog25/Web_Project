@@ -6,6 +6,7 @@
     <title>Brands</title>
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/brands.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="../JS/brands.js" defer></script>
 </head>
 <body>
@@ -24,7 +25,7 @@
         <section class="brands-intro">
             <p class="section-tag">Brands</p>
             <h1>The most known brands and their iconic cars</h1>
-            <p class="intro-text">Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut.</p>
+            <p class="intro-text">Discover, rate and share your opinion about your favorite car brands and models.</p>
         </section>
 
         <section class="brands-content">
@@ -46,16 +47,67 @@
             </div>
 
             <div class="brand-display">
-                <h2 id="brand-name">Nissan</h2>
+                <div class="brand-header">
+                    <h2 id="brand-name">Nissan</h2>
+                    <div class="brand-rating">
+                        <div class="stars" id="brand-stars">
+                            <i class="far fa-star" data-rating="1"></i>
+                            <i class="far fa-star" data-rating="2"></i>
+                            <i class="far fa-star" data-rating="3"></i>
+                            <i class="far fa-star" data-rating="4"></i>
+                            <i class="far fa-star" data-rating="5"></i>
+                        </div>
+                        <span id="brand-rating-text">Rate this brand</span>
+                    </div>
+                </div>
+                
                 <p id="brand-description">Japanese manufacturer known for innovative sports cars and reliable vehicles.</p>
                 
+                <div class="latest-feedback" id="latest-brand-feedback">
+                    <!-- Le dernier feedback apparaîtra ici -->
+                </div>
+                
+                <div class="brand-feedback">
+                    <h3>Share your thoughts</h3>
+                    <textarea id="brand-comment" placeholder="What do you think about this brand?"></textarea>
+                    <button id="submit-brand-feedback">Submit Feedback</button>
+                    <div id="brand-feedback-message"></div>
+                </div>
+                
+                <h3 class="models-title">Popular Models</h3>
                 <div class="cars-scroll-container">
                     <div class="cars-gallery">
                         <!-- Voitures seront ajoutées dynamiquement -->
                     </div>
                 </div>
             </div>
+
+                <!-- Modal pour les commentaires sur les modèles -->
+    <div class="modal" id="car-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 id="modal-car-name"></h3>
+            <div class="car-rating">
+                <div class="stars" id="car-stars">
+                    <i class="far fa-star" data-rating="1"></i>
+                    <i class="far fa-star" data-rating="2"></i>
+                    <i class="far fa-star" data-rating="3"></i>
+                    <i class="far fa-star" data-rating="4"></i>
+                    <i class="far fa-star" data-rating="5"></i>
+                </div>
+                <span id="car-rating-text">Rate this model</span>
+            </div>
+            <textarea id="car-comment" placeholder="Share your experience with this model..."></textarea>
+            <button id="submit-car-feedback">Submit Feedback</button>
+            <div id="car-feedback-message"></div>
+            <div class="previous-feedbacks" id="car-feedbacks">
+                <!-- Les commentaires existants seront ajoutés ici -->
+            </div>
+        </div>
+    </div>
         </section>
+
+        
     </main>
 
     <footer>
@@ -73,5 +125,7 @@
         <p class="copyright">&copy; 2024 Your Website. All rights reserved.</p>
         <p class="about-link"><a href="About.html">About Us</a></p>
     </footer>
+
+
 </body>
 </html>

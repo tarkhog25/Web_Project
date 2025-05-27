@@ -1,0 +1,108 @@
+/* Styles spécifiques à la page Creation */
+.creation-intro {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.creation-intro .section-tag {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.creation-intro h1 {
+    font-family: Futura, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.creation-intro .intro-text {
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.creation-steps {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    gap: 2rem;
+}
+
+.step-image {
+    flex: 1;
+}
+
+.step-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.step-content {
+    flex: 1;
+    padding: 1rem;
+}
+
+.step-content h2 {
+    font-size: 1.8rem;
+    color: #161818;
+    margin-bottom: 1rem;
+}
+
+.step-content p {
+    line-height: 1.6;
+}
+
+/* Alternance des positions image/contenu */
+.step-2 {
+    flex-direction: row-reverse;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .step {
+        flex-direction: column;
+    }
+    
+    .step-2 {
+        flex-direction: column;
+    }
+    
+    .step-image, .step-content {
+        width: 100%;
+    }
+}
+
+/* Footer adjustments */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.footer-logo {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 1.5rem;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.about-link a {
+    color: #333;
+    text-decoration: none;
+}

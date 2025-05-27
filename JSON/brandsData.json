@@ -1,0 +1,74 @@
+{
+    "nissan": {
+        "name": "Nissan",
+        "description": "Japanese manufacturer known for innovative sports cars and reliable vehicles.",
+        "cars": [
+            { "name": "Nissan GT-R", "image": "../Assets/img_exemple.png" },
+            { "name": "Nissan 370Z", "image": "../Assets/img_exemple.png" },
+            { "name": "Nissan Skyline", "image": "../Assets/img_exemple.png" }
+        ]
+    },
+    "bmw": {
+        "name": "BMW",
+        "description": "German luxury automaker famous for its performance and premium vehicles.",
+        "cars": [
+            { "name": "BMW M3", "image": "../Assets/img_exemple.png" },
+            { "name": "BMW i8", "image": "../Assets/img_exemple.png" },
+            { "name": "BMW Z4", "image": "../Assets/img_exemple.png" }
+        ]
+    },
+    "mercedes": {
+        "name": "Mercedes",
+        "description": "German brand synonymous with luxury and cutting-edge technology.",
+        "cars": [
+            { "name": "Mercedes AMG GT", "image": "../Assets/img_exemple.png" },
+            { "name": "Mercedes S-Class", "image": "../Assets/img_exemple.png" },
+            { "name": "Mercedes 300SL", "image": "../Assets/img_exemple.png" }
+        ]
+    },
+    "audi": {
+        "name": "Audi",
+        "description": "German brand known for its Quattro all-wheel-drive system and sleek designs.",
+        "cars": [
+            { "name": "Audi R8", "image": "../Assets/img_exemple.png" },
+            { "name": "Audi TT", "image": "../Assets/img_exemple.png" },
+            { "name": "Audi Quattro", "image": "../Assets/img_exemple.png" }
+        ]
+    },
+    "ferrari": {
+        "name": "Ferrari",
+        "description": "Italian luxury sports car manufacturer based in Maranello.",
+        "cars": [
+            { "name": "Ferrari 488 GTB", "image": "../Assets/img_exemple.png" },
+            { "name": "Ferrari F40", "image": "../Assets/img_exemple.png" },
+            { "name": "Ferrari Testarossa", "image": "../Assets/img_exemple.png" }
+        ]
+    },
+    "lamborghini": {
+        "name": "Lamborghini",
+        "description": "Italian manufacturer known for its high-performance supercars and aggressive styling.",
+        "cars": [
+            { "name": "Lamborghini Aventador", "image": "../Assets/img_exemple.png" },
+            { "name": "Lamborghini Huracán", "image": "../Assets/img_exemple.png" },
+            { "name": "Lamborghini Gallardo", "image": "../Assets/img_exemple.png" }
+        ]
+    },
+    "porsche": {
+        "name": "Porsche",
+        "description": "German manufacturer famous for its iconic 911 sports car and high-performance vehicles.",
+        "cars": [
+            { "name": "Porsche 911", "image": "../Assets/img_exemple.png" },
+            { "name": "Porsche Cayenne", "image": "../Assets/img_exemple.png" },
+            { "name": "Porsche Boxster", "image": "../Assets/img_exemple.png" }
+        ]
+    },
+    "Alpine": {
+        "name": "Alpine",
+        "description": "French manufacturer known for its lightweight sports cars and motorsport heritage.",
+        "cars": [
+            { "name": "Alpine A110", "image": "../Assets/img_exemple.png" },
+            { "name": "Alpine A310", "image": "../Assets/img_exemple.png" },
+            { "name": "Alpine A610", "image": "../Assets/img_exemple.png" }
+        ]
+    }
+}

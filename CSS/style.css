@@ -34,8 +34,8 @@ header, footer {
 }
 
 .navpage a:hover {
-    background-color: #444;
-    color: #26e0e6;
+    background-color: #bdb4b4;
+    color: #6c4418;
 }
 
 /* Hero Section */
@@ -117,7 +117,7 @@ header, footer {
 }
 
 .feature-card h3 a:hover {
-    color: #26e0e6;
+    color: #6c4418;
 }
 
 /* Footer */
@@ -155,5 +155,5 @@ footer {
 }
 
 .about-link a:hover {
-    color: #26e0e6;
+    color: #6c4418;
 }

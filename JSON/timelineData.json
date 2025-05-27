@@ -1,0 +1,38 @@
+[
+    {
+        "year": "1886",
+        "title": "La Benz Patent-Motorwagen",
+        "description": "Considérée comme la première automobile à moteur à combustion interne, conçue par Karl Benz.",
+        "image": "../Assets/img_exemple.png"
+    },
+    {
+        "year": "1908",
+        "title": "Ford Model T",
+        "description": "La première voiture produite en série à grande échelle, rendant les automobiles accessibles au grand public.",
+        "image": "../Assets/img_exemple.png"
+    },
+    {
+        "year": "1950s",
+        "title": "L'ère des ailerons",
+        "description": "Les voitures adoptent des designs futuristes avec d'énormes ailerons, inspirés par l'ère spatiale.",
+        "image": "../Assets/img_exemple.png"
+    },
+    {
+        "year": "1966",
+        "title": "Première voiture avec airbag",
+        "description": "La Oldsmobile Toronado introduit le premier système de coussin gonflable de sécurité.",
+        "image": "../Assets/img_exemple.png"
+    },
+    {
+        "year": "1997",
+        "title": "Toyota Prius",
+        "description": "La première voiture hybride produite en série, marquant le début de l'ère des véhicules écologiques.",
+        "image": "../Assets/img_exemple.png"
+    },
+    {
+        "year": "2020s",
+        "title": "Voitures autonomes",
+        "description": "Les véhicules autonomes commencent à être testés sur les routes, promettant de révolutionner les transports.",
+        "image": "../Assets/img_exemple.png"
+    }
+]

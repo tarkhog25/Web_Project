@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brands</title>
     <link rel="stylesheet" href="../CSS/style.css">
-    <script src="../JS/script.js"></script>
+    <link rel="stylesheet" href="../CSS/brands.css">
+    <script src="../JS/brands.js" defer></script>
 </head>
-
 <body>
     <header>
         <nav class="navpage">
@@ -21,11 +20,48 @@
         </nav>
     </header>
 
-    <footer>
+    <main>
+        <section class="brands-intro">
+            <p class="section-tag">Brands</p>
+            <h1>The most known brands and their iconic cars</h1>
+            <p class="intro-text">Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut.</p>
+        </section>
 
-        
-        <div>
-            <nav class="navpage">
+        <section class="brands-content">
+            <div class="brand-selector">
+                <label for="brand-select">Choose a brand:</label>
+                <select id="brand-select">
+                    <option value="nissan">Nissan</option>
+                    <option value="bmw">BMW</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                    <option value="ferrari">Ferrari</option>
+                    <option value="lamborghini">Lamborghini</option>
+                    <option value="mclaren">McLaren</option>
+                    <option value="porsche">Porsche</option>
+                    <option value="ford">Ford</option>
+                    <option value="renault">Renault</option>
+                    <option value="alpine">Alpine</option>
+                </select>
+            </div>
+
+            <div class="brand-display">
+                <h2 id="brand-name">Nissan</h2>
+                <p id="brand-description">Japanese manufacturer known for innovative sports cars and reliable vehicles.</p>
+                
+                <div class="cars-scroll-container">
+                    <div class="cars-gallery">
+                        <!-- Voitures seront ajoutées dynamiquement -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <img src="../Assets/logo.png" alt="Logo" class="footer-logo">
+            <nav class="navpage footer-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="Evolution.html">Evolution</a></li>
@@ -33,18 +69,9 @@
                     <li><a href="Brands.html">Brands</a></li>
                 </ul>
             </nav>
-
-            <img src="../Assets/logo.png" alt="Logo">
-
-        </div> <!-- I used div to have img and nav at the same level-->
-
-        <p>&copy; 2025 Web Project. All rights reserved.</p>
-
-        <p><a href="About.html">About us</a></p>
-
-
+        </div>
+        <p class="copyright">&copy; 2024 Your Website. All rights reserved.</p>
+        <p class="about-link"><a href="About.html">About Us</a></p>
     </footer>
 </body>
-
-
 </html>

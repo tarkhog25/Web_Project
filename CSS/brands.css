@@ -72,6 +72,17 @@
     font-size: 1rem;
 }
 
+#brand-comment{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    min-height: 100px;
+    margin-bottom: 1rem;
+    resize: vertical;
+    font-size: medium;
+}
+
 /* Galerie de voitures */
 .cars-scroll-container {
     overflow-x: auto;

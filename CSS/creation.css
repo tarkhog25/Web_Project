@@ -15,7 +15,7 @@
 .creation-intro h1 {
     font-family: Futura, sans-serif;
     font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 5.5rem;
 }
 
 .creation-intro .intro-text {
@@ -45,8 +45,12 @@
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease; 
 }
 
+.step-image img:hover {
+    transform: scale(1.05); 
+}
 .step-content {
     flex: 1;
     padding: 1rem;

@@ -79,6 +79,12 @@ header {
     object-fit: cover;
     border-radius: 8px;
     margin-top: 2rem;
+
+    transition: transform 0.5s ease;
+}
+
+#img_home_car:hover {
+    transform: scale(1.05);
 }
 
 /* Tagline Section */

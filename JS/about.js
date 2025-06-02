@@ -9,9 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const formData = new FormData(contactForm);
             const data = Object.fromEntries(formData);
             
-            // Ici vous pourriez ajouter une requête AJAX pour envoyer les données
-            console.log('Form data:', data);
-            
             // Feedback visuel
             const submitBtn = contactForm.querySelector('.submit-btn');
             submitBtn.innerHTML = '<i class="fas fa-check"></i> Message Sent';

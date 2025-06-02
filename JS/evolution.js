@@ -11,7 +11,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 timelineItem.innerHTML = `
                     <div class="timeline-content">
                         <div class="timeline-date">${item.year}</div>
-                        <h3 class="timeline-title">${item.title}</h3>
+                        <h3 class="timeline-title">
+                        <a href="${item.link}" target="_blank" id="evolution_link">${item.title}</a>
+                        </h3>
                         <img src="${item.image}" alt="${item.title}" class="timeline-img">
                         <p class="timeline-desc">${item.description}</p>
                     </div>

@@ -3,36 +3,42 @@
         "year": "1886",
         "title": "La Benz Patent-Motorwagen",
         "description": "Considered the first automobile with an internal combustion engine, designed by Karl Benz.",
-        "image": "../Assets/mercedes 1886.jpeg"
+        "image": "../Assets/mercedes 1886.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Benz_Patent-Motorwagen"
     },
     {
         "year": "1908",
         "title": "Ford Model T",
         "description": "The first mass-produced car, making automobiles accessible to the general public.",
-        "image": "../Assets/ford-model-t.jpg"
+        "image": "../Assets/ford-model-t.jpg",
+        "link": "https://en.wikipedia.org/wiki/Ford_Model_T"
     },
     {
         "year": "1950s",
         "title": "The era of tailfins",
         "description": "Cars adopted futuristic designs with huge tailfins, inspired by the space age.",
-        "image": "../Assets/aileron-1950.png"
+        "image": "../Assets/aileron-1950.png",
+        "link": "https://en.wikipedia.org/wiki/Car_tailfin"
     },
     {
         "year": "1966",
         "title": "First car with airbag",
         "description": "The Oldsmobile Toronado introduced the first airbag safety system.",
-        "image": "../Assets/airbag.png"
+        "image": "../Assets/airbag.png",
+        "link": "https://en.wikipedia.org/wiki/Airbag"
     },
     {
         "year": "1997",
         "title": "Toyota Prius",
         "description": "The first mass-produced hybrid car, marking the beginning of the era of eco-friendly vehicles.",
-        "image": "../Assets/toyota.png"
+        "image": "../Assets/toyota.png",
+        "link": "https://en.wikipedia.org/wiki/Toyota_Prius"
     },
     {
         "year": "2020s",
         "title": "Autonomous cars",
         "description": "Self-driving vehicles begin to be tested on roads, promising to revolutionize transportation.",
-        "image": "../Assets/autonome.png"
+        "image": "../Assets/autonome.png",
+        "link": "https://en.wikipedia.org/wiki/Autonomous_car"
     }
 ]

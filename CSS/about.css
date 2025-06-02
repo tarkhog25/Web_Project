@@ -128,6 +128,24 @@
     transform: translateY(-2px);
 }
 
+#Github_link {
+    color: #35312d;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#Github_link a:hover {
+    text-decoration: none;
+    color: #206468;
+}
+
+#Github_link a {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .about-content {

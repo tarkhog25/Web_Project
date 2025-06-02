@@ -3,130 +3,79 @@
       "name": "Nissan",
       "description": "Japanese manufacturer known for innovative sports cars and reliable vehicles.",
       "cars": [
-        { "name": "Nissan GT-R", "image": "../Assets/img_exemple.png" },
-        { "name": "Nissan 370Z", "image": "../Assets/img_exemple.png" },
-        { "name": "Nissan Skyline", "image": "../Assets/img_exemple.png" },
-        { "name": "Nissan Silvia S15", "image": "../Assets/img_exemple.png" },
-        { "name": "Nissan 300ZX", "image": "../Assets/img_exemple.png" },
-        { "name": "Nissan Juke-R", "image": "../Assets/img_exemple.png" }
-      ]
-    },
-    "bmw": {
-      "name": "BMW",
-      "description": "German luxury automaker famous for its performance and premium vehicles.",
-      "cars": [
-        { "name": "BMW M3", "image": "../Assets/img_exemple.png" },
-        { "name": "BMW i8", "image": "../Assets/img_exemple.png" },
-        { "name": "BMW Z4", "image": "../Assets/img_exemple.png" },
-        { "name": "BMW M5", "image": "../Assets/img_exemple.png" },
-        { "name": "BMW 507", "image": "../Assets/img_exemple.png" },
-        { "name": "BMW X6 M", "image": "../Assets/img_exemple.png" }
-      ]
-    },
-    "mercedes": {
-      "name": "Mercedes",
-      "description": "German brand synonymous with luxury and cutting-edge technology.",
-      "cars": [
-        { "name": "Mercedes AMG GT", "image": "../Assets/img_exemple.png" },
-        { "name": "Mercedes S-Class", "image": "../Assets/img_exemple.png" },
-        { "name": "Mercedes 300SL", "image": "../Assets/img_exemple.png" },
-        { "name": "Mercedes C63 AMG", "image": "../Assets/img_exemple.png" },
-        { "name": "Mercedes G-Class", "image": "../Assets/img_exemple.png" },
-        { "name": "Mercedes CLK GTR", "image": "../Assets/img_exemple.png" }
+        { "name": "Nissan GT-R", "image": "../Assets/CARS/Nissan GT-R.png" },
+        { "name": "Nissan 370Z", "image": "../Assets/CARS/Nissan_370Z.png" },
+        { "name": "Nissan Skyline", "image": "../Assets/CARS/Nissan_Skyline.png" },
+        { "name": "Nissan Silvia S15", "image": "../Assets/CARS/Nissan_Silvia_S15.png" },
+        { "name": "Nissan 300ZX", "image": "../Assets/CARS/Nissan_300ZX.png" },
+        { "name": "Nissan Juke-R", "image": "../Assets/CARS/Nissan_Juke-R.png" }
       ]
     },
     "audi": {
       "name": "Audi",
       "description": "German brand known for its Quattro all-wheel-drive system and sleek designs.",
       "cars": [
-        { "name": "Audi R8", "image": "../Assets/img_exemple.png" },
-        { "name": "Audi TT", "image": "../Assets/img_exemple.png" },
-        { "name": "Audi Quattro", "image": "../Assets/img_exemple.png" },
-        { "name": "Audi RS6 Avant", "image": "../Assets/img_exemple.png" },
-        { "name": "Audi A8", "image": "../Assets/img_exemple.png" },
-        { "name": "Audi e-tron GT", "image": "../Assets/img_exemple.png" }
-      ]
-    },
-    "ferrari": {
-      "name": "Ferrari",
-      "description": "Italian luxury sports car manufacturer based in Maranello.",
-      "cars": [
-        { "name": "Ferrari 488 GTB", "image": "../Assets/img_exemple.png" },
-        { "name": "Ferrari F40", "image": "../Assets/img_exemple.png" },
-        { "name": "Ferrari Testarossa", "image": "../Assets/img_exemple.png" },
-        { "name": "Ferrari Enzo", "image": "../Assets/img_exemple.png" },
-        { "name": "Ferrari LaFerrari", "image": "../Assets/img_exemple.png" },
-        { "name": "Ferrari 812 Superfast", "image": "../Assets/img_exemple.png" }
+        { "name": "Audi R8", "image": "../Assets/CARS/Audi_R8.png" },
+        { "name": "Audi TT", "image": "../Assets/CARS/Audi_TT.png" },
+        { "name": "Audi Quattro", "image": "../Assets/CARS/Audi_Quattro.png" },
+        { "name": "Audi RS6 Avant", "image": "../Assets/CARS/Audi_RS6_Avant.png" },
+        { "name": "Audi A8", "image": "../Assets/CARS/Audi_A8.png" },
+        { "name": "Audi e-tron GT", "image": "../Assets/CARS/Audi_e-tron_GT.png" }
       ]
     },
     "lamborghini": {
       "name": "Lamborghini",
       "description": "Italian manufacturer known for its high-performance supercars and aggressive styling.",
       "cars": [
-        { "name": "Lamborghini Aventador", "image": "../Assets/img_exemple.png" },
-        { "name": "Lamborghini Huracán", "image": "../Assets/img_exemple.png" },
-        { "name": "Lamborghini Gallardo", "image": "../Assets/img_exemple.png" },
-        { "name": "Lamborghini Murciélago", "image": "../Assets/img_exemple.png" },
-        { "name": "Lamborghini Diablo", "image": "../Assets/img_exemple.png" },
-        { "name": "Lamborghini Countach", "image": "../Assets/img_exemple.png" }
+        { "name": "Lamborghini Aventador", "image": "../Assets/CARS/Lamborghini Aventador.png" },
+        { "name": "Lamborghini Huracán", "image": "../Assets/CARS/Lamborghini Huracán.png" },
+        { "name": "Lamborghini Gallardo", "image": "../Assets/CARS/Lamborghini Gallardo.png" },
+        { "name": "Lamborghini Murciélago", "image": "../Assets/CARS/Lamborghini Murciélago.png" },
+        { "name": "Lamborghini Diablo", "image": "../Assets/CARS/Lamborghini Diablo.png" },
+        { "name": "Lamborghini Countach", "image": "../Assets/CARS/Lamborghini Countach.png" }
       ]
     },
     "mclaren": {
       "name": "McLaren",
       "description": "British manufacturer known for its Formula 1 heritage and high-performance supercars.",
       "cars": [
-        { "name": "McLaren P1", "image": "../Assets/img_exemple.png" },
-        { "name": "McLaren 720S", "image": "../Assets/img_exemple.png" },
-        { "name": "McLaren F1", "image": "../Assets/img_exemple.png" },
-        { "name": "McLaren Senna", "image": "../Assets/img_exemple.png" },
-        { "name": "McLaren 650S", "image": "../Assets/img_exemple.png" },
-        { "name": "McLaren Artura", "image": "../Assets/img_exemple.png" }
+        { "name": "McLaren P1", "image": "../Assets/CARS/McLaren P1.png" },
+        { "name": "McLaren 720S", "image": "../Assets/CARS/McLaren 720S.png" },
+        { "name": "McLaren F1", "image": "../Assets/CARS/McLaren F1.png" },
+        { "name": "McLaren Senna", "image": "../Assets/CARS/McLaren Senna.png" },
+        { "name": "McLaren 650S", "image": "../Assets/CARS/McLaren 650S.png" },
+        { "name": "McLaren Artura", "image": "../Assets/CARS/McLaren Artura.png" }
       ]
     },
     "porsche": {
       "name": "Porsche",
       "description": "German manufacturer famous for its iconic 911 sports car and high-performance vehicles.",
       "cars": [
-        { "name": "Porsche 911", "image": "../Assets/img_exemple.png" },
-        { "name": "Porsche Cayenne", "image": "../Assets/img_exemple.png" },
-        { "name": "Porsche Boxster", "image": "../Assets/img_exemple.png" },
-        { "name": "Porsche 918 Spyder", "image": "../Assets/img_exemple.png" },
-        { "name": "Porsche Panamera", "image": "../Assets/img_exemple.png" },
-        { "name": "Porsche Taycan", "image": "../Assets/img_exemple.png" }
+        { "name": "Porsche 911", "image": "../Assets/CARS/Porsche 911.png" },
+        { "name": "Porsche Cayenne", "image": "../Assets/CARS/Porsche Cayenne.png" },
+        { "name": "Porsche Boxster", "image": "../Assets/CARS/Porsche Boxster.png" },
+        { "name": "Porsche 918 Spyder", "image": "../Assets/CARS/Porsche 918 Spyder.png" },
+        { "name": "Porsche Panamera", "image": "../Assets/CARS/Porsche Panamera.png" },
+        { "name": "Porsche Taycan", "image": "../Assets/CARS/Porsche Taycan.png" }
       ]
     },
     "ford": {
       "name": "Ford",
       "description": "American manufacturer known for its trucks, SUVs, and the iconic Mustang sports car.",
       "cars": [
-        { "name": "Ford Mustang", "image": "../Assets/img_exemple.png" },
-        { "name": "Ford F-150", "image": "../Assets/img_exemple.png" },
-        { "name": "Ford GT", "image": "../Assets/img_exemple.png" },
-        { "name": "Ford Focus RS", "image": "../Assets/img_exemple.png" },
-        { "name": "Ford Escort RS Cosworth", "image": "../Assets/img_exemple.png" },
-        { "name": "Ford Bronco", "image": "../Assets/img_exemple.png" }
-      ]
-    },
-    "renault": {
-      "name": "Renault",
-      "description": "French manufacturer known for its affordable cars and innovative designs.",
-      "cars": [
-        { "name": "Renault Clio", "image": "../Assets/img_exemple.png" },
-        { "name": "Renault Megane", "image": "../Assets/img_exemple.png" },
-        { "name": "Renault Twingo", "image": "../Assets/img_exemple.png" },
-        { "name": "Renault 5 Turbo", "image": "../Assets/img_exemple.png" },
-        { "name": "Renault Alpine A110 (ancienne)", "image": "../Assets/img_exemple.png" },
-        { "name": "Renault Laguna", "image": "../Assets/img_exemple.png" }
+        { "name": "Ford Mustang", "image": "../Assets/CARS/Ford Mustang.png" },
+        { "name": "Ford F-150", "image": "../Assets/CARS/Ford F-150.png" },
+        { "name": "Ford GT", "image": "../Assets/CARS/Ford GT.png" }
       ]
     },
     "alpine": {
       "name": "Alpine",
       "description": "French manufacturer known for its lightweight sports cars and motorsport heritage.",
       "cars": [
-        { "name": "Alpine A110", "image": "../Assets/img_exemple.png" },
-        { "name": "Alpine A310", "image": "../Assets/img_exemple.png" },
-        { "name": "Alpine A610", "image": "../Assets/img_exemple.png" },
-        { "name": "Alpine Vision", "image": "../Assets/img_exemple.png" }
+        { "name": "Alpine A110", "image": "../Assets/CARS/Alpine A110.png" },
+        { "name": "Alpine A310", "image": "../Assets/CARS/Alpine A310.png" },
+        { "name": "Alpine A610", "image": "../Assets/CARS/Alpine A610.png" },
+        { "name": "Alpine Vision", "image": "../Assets/CARS/Alpine Vision.png" }
       ]
     }
   }
